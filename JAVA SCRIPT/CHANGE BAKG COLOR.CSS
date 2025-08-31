@@ -1,0 +1,31 @@
+button[data-color="red"] {
+  background-color: red;
+}
+
+button[data-color="green"] {
+  background-color: green;
+}
+
+button[data-color="blue"] {
+  background-color: blue;
+}
+
+h2{
+    margin-bottom: 20px;
+    padding-left: 400px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+button{
+    padding: 12px 25px;
+    font-size: 16px;
+    border-color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
